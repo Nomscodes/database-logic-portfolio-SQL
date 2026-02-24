@@ -1,0 +1,33 @@
+Projeto 1: Sistema de Gestão de Clientes - Oficina GynAuto
+📝 Problema de Negócio
+A oficina mecânica GynAuto operava com um sistema manual de fichas de papel, o que gerava inconsistências e perda de tempo na busca por informações. O desafio foi modernizar este processo através de um banco de dados estruturado, garantindo o armazenamento seguro de dados pessoais e a organização de múltiplos pontos de contacto por cliente.
+
+🏗️ Modelagem e Diferenciais
+Entidade Principal: Cliente (Foco em Entidade Única).
+
+Tratamento de Atributos: Modelagem focada em atributos multivalorados, permitindo o registo de até três números de telefone e três endereços de e-mail por registo.
+
+Normalização Inicial: Estruturação horizontal dos dados para garantir que campos críticos como Nome e CPF fossem devidamente validados e armazenados de forma atómica.
+
+💻 Destaque do Código SQL
+Neste projeto, utilizei comandos DDL para criar a tabela com as tipagens adequadas (VARCHAR) e a definição da Chave Primária para garantir a unicidade de cada cliente:
+
+SQL
+CREATE TABLE cliente (
+    cpf VARCHAR(11) PRIMARY KEY, -- Identificador único do cliente
+    nome VARCHAR(30) NOT NULL,    -- Nome completo obrigatório
+    endereco VARCHAR(30),         -- Endereço residencial
+    telefone1 VARCHAR(11),        -- Contato telefônico principal
+    telefone2 VARCHAR(11),
+    telefone3 VARCHAR(11),
+    email1 VARCHAR(30),           -- E-mail principal
+    email2 VARCHAR(30),
+    email3 VARCHAR(30)
+);
+
+🛠️ Habilidades Técnicas Aplicadas
+Análise de Requisitos: Conversão de formulários físicos em esquemas digitais.
+
+Modelagem Conceitual e Lógica: Criação de DER (Diagrama Entidade-Relacionamento) e Dicionário de Dados.
+
+Engenharia de Dados: Tradução de lógica de negócio para implementação física em SQL.
