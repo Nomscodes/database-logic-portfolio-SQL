@@ -19,22 +19,22 @@ Aqui apresento uma progressão de desafios, desde a manipulação básica até l
 
 Atualmente, o portfólio conta com os seguintes módulos:
 
-### 1. [Nome do Trabalho 1]
+### 1. Sistema de Gestão de Clientes - Oficina GynAuto
 * **O que faz:** Descrição curta do problema (ex: Sistema de vendas).
 * **Conceitos Aplicados:** `JOINs`, `GROUP BY`, `Filtros complexos`.
 * [Ver arquivos aqui](./pasta-do-trabalho-1)
 
-### 2. [Nome do Trabalho 2]
+### 2. Gestão Académica de Professores - Universidade 2C
 * **O que faz:** (Ex: Relatório de estoque e fornecedores).
 * **Conceitos Aplicados:** `Subqueries`, `CTEs`, `Union`.
 * [Ver arquivos aqui](./pasta-do-trabalho-2)
 
-### 3. [Nome do Trabalho 3]
+### 3. Controle de Temporada F1 - Liberty Media
 * **O que faz:** (Ex: Agregação de dados financeiros).
 * **Conceitos Aplicados:** `Functions`, `Case When`, `Views`.
 * [Ver arquivos aqui](./pasta-do-trabalho-3)
 
-### 4. [Nome do Trabalho 4]
+### 4. Modelo Bancário - Banco SeuDinheiroEMeuGYN
 * **O que faz:** (Ex: Limpeza e normalização de dados brutos).
 * **Conceitos Aplicados:** `Data Cleaning`, `DML (Update/Delete)`, `Constraints`.
 * [Ver arquivos aqui](./pasta-do-trabalho-4)
