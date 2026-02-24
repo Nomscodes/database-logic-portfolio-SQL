@@ -17,27 +17,25 @@ Aqui apresento uma progressão de desafios, desde a manipulação básica até l
 
 ## 📂 Projetos e Exercícios
 
-Atualmente, o portfólio conta com os seguintes módulos:
+### 1. Sistema de Gestão de Clientes (Oficina GynAuto)
+* **Foco:** Transição de sistema manual para digital e modelagem de entidade única.
+* **Técnicas:** Criação de tabelas (DDL) e tratamento de múltiplos contactos.
+* [Ver detalhes](./01-gestao-oficina-gynauto)
 
-### 1. Sistema de Gestão de Clientes - Oficina GynAuto
-* **O que faz:** Descrição curta do problema (ex: Sistema de vendas).
-* **Conceitos Aplicados:** `JOINs`, `GROUP BY`, `Filtros complexos`.
-* [Ver arquivos aqui](./pasta-do-trabalho-1)
+### 2. Gestão Académica (Universidade 2C)
+* **Foco:** Regras de negócio rígidas para cadastro de professores.
+* **Técnicas:** Uso de `CHECK` para validação de campos (Titulação/Contrato) e campos obrigatórios (`NOT NULL`).
+* [Ver detalhes](./02-sistema-academico-univ2c)
 
-### 2. Gestão Académica de Professores - Universidade 2C
-* **O que faz:** (Ex: Relatório de estoque e fornecedores).
-* **Conceitos Aplicados:** `Subqueries`, `CTEs`, `Union`.
-* [Ver arquivos aqui](./pasta-do-trabalho-2)
+### 3. Controle de Temporada F1 (Liberty Media)
+* **Foco:** Gestão dinâmica de pilotos e equipas para a temporada 2026.
+* **Técnicas:** Operações de CRUD, `UPDATE` em massa e `DELETE` estruturado.
+* [Ver detalhes](./03-temporada-formula1-2026)
 
-### 3. Controle de Temporada F1 - Liberty Media
-* **O que faz:** (Ex: Agregação de dados financeiros).
-* **Conceitos Aplicados:** `Functions`, `Case When`, `Views`.
-* [Ver arquivos aqui](./pasta-do-trabalho-3)
-
-### 4. Modelo Bancário - Banco SeuDinheiroEMeuGYN
-* **O que faz:** (Ex: Limpeza e normalização de dados brutos).
-* **Conceitos Aplicados:** `Data Cleaning`, `DML (Update/Delete)`, `Constraints`.
-* [Ver arquivos aqui](./pasta-do-trabalho-4)
+### 4. Modelo Bancário Relacional (Banco SeuDinheiroEMeuGYN)
+* **Foco:** Relacionamento entre Clientes e Contas Bancárias.
+* **Técnicas:** Implementação de Relacionamento 1:1, Chaves Primárias Compostas e `FOREIGN KEY`.
+* [Ver detalhes](./04-sistema-bancario-relacional)
 
 ---
 
